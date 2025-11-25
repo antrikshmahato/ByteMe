@@ -1,24 +1,65 @@
-Byte Me Canteen System
-Overview
-Byte Me Canteen System is a Java-based CLI and GUI application designed to manage food orders in a college canteen. The system includes role-based functionalities for customers and admins, with features such as menu management, order processing, and sales reporting. The application is tested thoroughly, and a GUI is implemented
-Features
-Admin Features:
-•	Menu Management: Add, update, and remove menu items.
-•	Order Management: View pending orders, update order status, process refunds, and handle special requests.
-•	Daily Sales Report: Generate reports including total sales, most popular items, and the total number of orders.
-Customer Features:
-•	Food Ordering: Add, modify, and remove items in the cart, and proceed to checkout with payment options (cash or card).
-•	Reordering: Reorder previous orders from the order history.
-•	Reviews: Leave reviews for food items and view reviews from other customers.
-Graphical User Interface
-•	Implemented a Graphical User Interface (GUI) for managing order history and the menu for both customers and admins, making it easier to interact with the system.
-General
-•	GUI Integration: An intuitive graphical user interface for interaction.
-•	CLI Support: Command-line interface for efficient operations.
-•	Testing: Unit tests to ensure system reliability and correctness.
-Testing
-•	Implemented tests for various system functionalities, including:
-o	Unavailable Items in Cart: Tests that items not available in the menu are not added to the cart and cannot be ordered.
-o	Invalid Usernames and Passwords: Tests to ensure that invalid usernames and passwords are rejected, preventing unauthorized login.
-UML Diagram
+Byte Me Canteen System – Overview
 
+Byte Me Canteen System is a Java-based CLI + GUI application designed to efficiently manage food ordering operations in a college canteen. The system supports role-based access for both customers and admins, enabling smooth management of menu items, orders, reviews, and daily sales.
+The project includes a fully integrated GUI, robust backend logic, and comprehensive unit testing.
+
+✨ Features
+Admin Features
+
+Menu Management:
+Add, update, and delete menu items.
+
+Order Management:
+View pending orders, update order status, process refunds, and handle special requests.
+
+Daily Sales Report:
+Generate detailed sales reports, including:
+
+Total revenue
+
+Most popular items
+
+Total number of orders
+
+Customer Features
+
+Food Ordering:
+Add, update, or remove items from the cart and proceed to checkout using cash or card.
+
+Reordering:
+Quickly reorder previous meals from order history.
+
+Reviews:
+Submit reviews for food items and view feedback from other customers.
+
+🖥 Graphical User Interface
+
+The project includes a user-friendly GUI for:
+
+Menu browsing and ordering
+
+Viewing and managing order history
+
+Admin-level menu and order management
+
+Both customers and admins can operate core functionalities through the GUI, enhancing accessibility and usability.
+
+⌨️ Command-Line Interface
+
+A full CLI mode is available for users who prefer terminal-based interaction. All core operations for both roles are supported.
+
+🧪 Testing
+
+Comprehensive unit tests ensure system reliability and correctness. Key test cases include:
+
+Unavailable Items in Cart:
+Ensures that items not present in the menu cannot be added or ordered.
+
+Invalid Login Attempts:
+Verifies that invalid usernames and passwords are rejected to prevent unauthorized access.
+
+Additional tests cover ordering logic, menu updates, and more.
+
+📊 UML Diagram
+
+A detailed UML diagram is included to illustrate system architecture, class relationships, and workflow logic.
